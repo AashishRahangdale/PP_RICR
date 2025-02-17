@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(141, 141, 213);
+}
+.error{
+    border: 1px solid red;
+}
+
+#main-container{
+    width: 400px;
+    background-color: white;
+    height: 540px;
+    
+}

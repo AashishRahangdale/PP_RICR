@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="con1">
+I am a container
+    </div>
+
+    <button id="drk" onclick="dark()">Dark theme</button>
+    <button id="lgt" onclick="ligth()">ligth theme</button>
+    <button id="theme" onclick="changetheme()">Dark theme</button>
+
+    <br>
+    <br>
+    <button id="rd" onclick="ChangeColor('red')">Red</button>
+    <button id="gr" onclick="green()">Green</button>
+    <button id="blu" onclick="blue()">Blue</button>
+
+
+    <button id="rd" onclick="ChangeColor('red')">Red</button>
+    <button id="rd" onclick="ChangeColor('green')">Red</button>
+    <button id="rd" onclick="ChangeColor('blue')">Red</button>
+
+    <input type="color" name="colour" id="color" onchange="ChangeColor(value)">
+    <script src="script.js"></script>
+</body>
+</html>

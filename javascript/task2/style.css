@@ -1,0 +1,20 @@
+#con{
+    width: 500px;
+    height: 300px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con1{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.con2{
+    margin-left: 20px;
+}
